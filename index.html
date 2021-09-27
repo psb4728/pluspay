@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+	<title>플러스페이 결제 시스템, 오프라인/온라인 결제 서비스</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=yes" name="viewport" />
+  <meta name="author" content="31system" />
+  <meta name="description" content="안녕하세요 플러스페이 결제 시스템 입니다." />
+  <meta name="Keywords" content="플러스페이, pluspay, PLUSPAY, PlusPay, 플러스페이 결제시스템, 결제시스템, 결제서비스, 전자결제, pg, PG사, PG, 수기결제, SMS결제, ARS결제, 자동결제, 가상계좌" />
+
+	<!-- og -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="플러스페이" />
+  <meta property="og:title" content="플러스페이 입니다." />
+  <meta property="og:description" content="안녕하세요 플러스페이 입니다." />
+  <meta property="og:url" content="#" />
+  <!-- <meta property="og:image" content="./images/kakao_img.png" /> -->
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="400" />
+
+	<!-- twitter -->
+  <meta name="twitter:title" content="플러스페이" />
+  <meta name="twitter:description" content="안녕하세요 플러스페이 입니다." />
+  <meta name="twitter:url" content="#" />
+  <!-- <meta name="twitter:image" content="./images/kakao_img.png" /> -->
+
+	<!-- Faivicon -->
+  <link rel="icon" type="image/png" href="./images/favicon.ico">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/common.css" rel="stylesheet" type="text/css" />
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<!-- Swiper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+
+
+</head>
+<body>
+	<!-- Skip -->
+  <div id="skipNav">
+    <a href="#skip_content">본문 바로가기</a>
+    <a href="./info.html">플러스페이소개 바로가기</a>
+    <a href="./payWrite.html">결제서비스 바로가기</a>
+    <a href="./addtion.html">부가서비스 바로가기</a>
+    <a href="./faq.html">고객지원 바로가기</a>
+  </div>
+
+	<!-- Layer -->
+	<div id="layer"></div>
+
+	<!-- Header -->
+	<header id="header">
+		<nav class="wrap">
+			<a href="index.html" class="logo"><img src="images/logo.png" alt="플러스페이" /></a>
+			<!-- GNB -->
+			<ul class="gnb">
+				<li>
+					<a href="index.html">HOME</a>
+					<div class="depth">
+						<a href="index.html">HOME</a>
+					</div>
+				</li>
+				<li>
+					<a href="info.html">플러스페이 소개</a>
+					<div class="depth">
+						<a href="info.html">플러스페이 소개</a>
+					</div>
+				</li>
+				<li>
+					<a href="payWrite.html">결제서비스</a>
+					<div class="depth">
+						<a href="payWrite.html#tabs-1">수기결제</a>
+						<a href="payWrite.html#tabs-2">SMS결제</a>
+						<a href="payWrite.html#tabs-4">자동결제</a>
+						<a href="payWrite.html#tabs-5">가상계좌</a>
+					</div>
+				</li>
+				<!-- <li>
+					<a href="addtion.html">부가서비스</a>
+					<div class="depth">
+						<a href="addtion.html">예금주 성명 조회</a>
+						<a href="addtion_1.html">예금주 실명 조회</a>
+						<a href="addtion_2.html">송금내역 조회</a>
+						<a href="addtion_3.html">입금내역 조회</a>
+						<a href="addtion_4.html">예치금내역/잔액 조회</a>
+					</div>
+				</li> -->
+				<li>
+					<a href="faq.html">고객지원</a>
+					<div class="depth">
+						<a href="faq.html">자주하는 질문</a>
+						<a href="notice.html">공지사항</a>
+						<a href="question.html">문의하기</a>
+					</div>
+				</li>
+			</ul>
+			<!-- GNB End -->
+			<div class="menu_btn">
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+			</div>
+		</nav>
+
+		<article class="ham_nav">
+			<div class="mo_nav_wrap">
+				<ul class="menu_list">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="info.html">플러스페이 소개</a></li>
+					<li class="sub"><a href="payWrite.html">결제서비스</a>
+						<div class="sub_menu">
+							<ul>
+								<li><a href="payWrite.html#tabs-1">수기결제</a></li>
+								<li><a href="payWrite.html#tabs-2">SMS결제</a></li>
+								<li><a href="payWrite.html#tabs-4">자동결제</a></li>
+								<li><a href="payWrite.html#tabs-5">가상계좌</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="sub"><a href="faq.html">고객지원</a>
+						<div class="sub_menu">
+							<ul>
+								<li><a href="faq.html">자주하는 질문</a></li>
+								<li><a href="notice.html">공지사항</a></li>
+								<li><a href="question.html">문의하기</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</article>
+	</header>
+
+	<!-- Main -->
+	<main class="main_container">
+		<article class="swiper main_slide">
+      <div class="swiper-wrapper">
+        <section class="swiper-slide">
+					<div class="visual_container">
+						<div class="left_content">
+							<p class="top_text">뭐라고 해야되냐</p>
+							<h2>안정적인 비즈니스를<br>시작해보세요.</h2>
+							<p class="bt_text"><strong>PLUSPAY</strong>와 함께 사업을<br>보다 안정적으로!</p>
+							<button class="main_btn"><a href="question.html">서비스 이용하기</a></button>
+						</div>
+						<div class="right_content">
+							<img src="./images/main_1.png" alt="메인이미지1">
+						</div>
+					</div>
+				</section>
+        <section class="swiper-slide">
+					<div class="visual_container">
+						<div class="left_content">
+							<p class="top_text">뭐라고 해야되냐</p>
+							<h2>안정적인 비즈니스를<br>시작해보세요.</h2>
+							<p class="bt_text"><strong>PLUSPAY</strong>와 함께 사업을<br>보다 안정적으로!</p>
+							<button class="main_btn"><a href="question.html">서비스 이용하기</a></button>
+						</div>
+						<div class="right_content">
+							<img src="./images/main_2.png" alt="메인이미지2">
+						</div>
+					</div>
+				</section>
+        <section class="swiper-slide">
+					<div class="visual_container">
+						<div class="left_content">
+							<p class="top_text">뭐라고 해야되냐</p>
+							<h2>안정적인 비즈니스를<br>시작해보세요.</h2>
+							<p class="bt_text"><strong>PLUSPAY</strong>와 함께 사업을<br>보다 안정적으로!</p>
+							<button class="main_btn"><a href="question.html">서비스 이용하기</a></button>
+						</div>
+						<div class="right_content">
+							<img src="./images/main_3.png" alt="메인이미지3">
+						</div>
+					</div>
+				</section>
+        <section class="swiper-slide">
+					<div class="visual_container">
+						<div class="left_content">
+							<p class="top_text">뭐라고 해야되냐</p>
+							<h2>안정적인 비즈니스를<br>시작해보세요.</h2>
+							<p class="bt_text"><strong>PLUSPAY</strong>와 함께 사업을<br>보다 안정적으로!</p>
+							<button class="main_btn"><a href="question.html">서비스 이용하기</a></button>
+						</div>
+						<div class="right_content">
+							<img src="./images/main_4.png" alt="메인이미지4">
+						</div>
+					</div>
+				</section>
+      </div>
+      <div class="swiper-pagination"></div>
+    </article>
+	</main>
+
+	<!-- Info -->
+	<article class="info_wrap" id="skip_content">
+		<div class="inner">
+			<h3 class="show-on-scroll">플러스 페이 소개</h3>
+			<p class="show-on-scroll">
+				저희 플러스 페이는 On/Offline Payment Solution, 온라인 전자결제<br>
+				(PG, PAYMENTT GATEWAY) 등 전자상거래 소프트웨어를 전문적으로<br>
+				개발하는 개발하는 기업으로 다년간 노하우를 가지고 항상 업주님들의<br>
+				서비스 품질 향상 및 업주님들의 수익 향상을 위해 노력해왔습니다.<br>
+				업주님들의 수익 향상 방법을 위해 노력해왔습니다.
+			</p>
+			<a href="info.html" class="com_btn show-on-scroll">자세히 보기</a>
+		</div>
+	</article>
+
+	<!-- Counter -->
+	<!-- <article class="container"> -->
+		<div class="counter-up">
+			<section class="counter_wrap">
+				<ul class="counter1 show-on-scroll">
+					<li class="icon"><img src="./images/counter_icon1.png" alt="아이콘"></li>
+					<li><a class="counter">4638</a>+</li>
+					<li class="text">가맹점수</li>
+				</ul>
+			</section>
+			<section class="counter_wrap">
+				<ul class="counter2 show-on-scroll">
+					<li class="icon"><img src="./images/counter_icon2.png" alt="아이콘"></li>
+					<li><a class="counter">96</a>%</li>
+					<li class="text">년 매출 증가</li>
+				</ul>
+			</section>
+			<section class="counter_wrap">
+				<ul class="counter3 show-on-scroll">
+					<li class="icon"><img src="./images/counter_icon3.png" alt="아이콘"></li>
+					<li><a class="counter">648</a>억</li>
+					<li class="text">월 평균 거래금액</li>
+				</ul>
+			</section>
+			<section class="counter_wrap">
+				<ul class="counter4 show-on-scroll">
+					<li class="icon"><img src="./images/counter_icon4.png" alt="아이콘"></li>
+					<li><a class="counter">137</a></li>
+					<li class="text">파트너수</li>
+				</ul>
+			</section>
+		</div>
+	<!-- </article> -->
+
+	<!-- btSwiper -->
+	<div class="content_container">
+		<article class="swiper btSwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="text_wrap1">
+						<p>안전한 시스템 구축으로<br>안젠결제를</p>
+						<p>플러스</p>
+					</div>
+					<img src="./images/bt_img_1.jpg" alt="결제이미지" />
+					<div class="text_wrap">
+						<!-- <h4 class="top_text">안전한 시스템 구축으로<br>안전결제를</h4>
+						<h4 class="bt_text">플러스</h4> -->
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="text_wrap1">
+						<p>안전한 시스템 구축으로<br>안젠결제를</p>
+						<p>플러스</p>
+					</div>
+					<img src="./images/bt_img_2.jpg" alt="노트북이미지" />
+					<div class="text_wrap">
+						<!-- <h4 class="top_text">발빠른 대응으로<br>경쟁력을 </h4>
+						<h4 class="bt_text">플러스</h4> -->
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="text_wrap1">
+						<p>안전한 시스템 구축으로<br>안젠결제를</p>
+						<p>플러스</p>
+					</div>
+					<img src="./images/bt_img_3.jpg" alt="메모장이미지" />
+					<div class="text_wrap">
+						<!-- <h4 class="top_text">빠른 정산으로<br>회전력을</h4>
+						<h4 class="bt_text">플러스</h4> -->
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</article>
+	</div>
+
+
+	<!-- Card Slide -->
+	<article class="container">
+		<h2 class="q_tit show-on-scroll">자주하는 질문</h2>
+		<section id="slider">
+			<input type="radio" name="slider" id="s1">
+			<input type="radio" name="slider" id="s2">
+			<input type="radio" name="slider" id="s3" checked>
+			<input type="radio" name="slider" id="s4">
+			<input type="radio" name="slider" id="s5">
+			
+			<label for="s1" id="slide1" class="show-on-scroll">
+				<div>
+					<h5>가입 절차는 어떻게 되나요?</h5>
+					<p>
+						기존 PG 업체는 초기 가입비, 단말기 임대 비용, 보증 보험 발행 수수료 등이 발생되나 저희 플러스페이 에서는 일체 비용이 발생되지 않아 업주님들의 초기 사업 경쟁력을 플러스 해드립니다.
+					</p>
+				</div>
+			</label>
+			<label for="s2" id="slide2" class="show-on-scroll">
+				<div>
+					<h5>수수료는 어떻게 되나요?</h5>
+					<p>
+						기존PG 업체는 결제 시 부가세 10%, 카드 가맹점 수수료 평균 3% ~ 7%가 평균 발생하는 방면 저희 플러스페이는 부가세 + 카드 가맹점 수수료를 통합하여 8% ~ 9%로 기존 업체 사용 대비 최대 49% 이상의 수익을 플러스 해드립니다.
+					</p>
+				</div>
+			</label>
+			<label for="s3" id="slide3" class="show-on-scroll">
+				<div>
+					<h5>결제시스템이 어떻게 제공 되나요?</h5>
+					<p>
+						기존 PG 업체는 일괄적인 결제 시스템 제공으로 업주님들의 불편함이 많았으나 저희 플러스페이 에서는 업주님들의 사업장에 맞도록 업종에 온/오프라인 모두 최적화된 맞춤 솔루션을 제공 함으로 고객의 편의성을 플러스 해드립니다.
+					</p>
+				</div>	
+			</label>
+			<label for="s4" id="slide4" class="show-on-scroll">
+				<div>
+					<h5>정산일이 어떻게 되나요?</h5>
+					<p>
+						기존 PG 업체는 결제일 기준 D+5일 이상이나 월 1회 정산 등을 하나 저희 플러스페이에서는 결제일 기준 D+1일 정산을 원칙으로 하여 업주님들의 자금 회전력을 플러스 해드립니다.
+					</p>
+				</div>
+			</label>
+			<label for="s5" id="slide5" class="show-on-scroll">
+				<div>
+					<h5>기타 질문</h5>
+					<p>
+						기타 질문은 문의하기 또는 고객센터 전화번호로 문의해 주시기 바랍니다.
+					</p>
+				</div>
+			</label>
+		</section>
+		<div class="btn_wrap">
+			<a href="info.html" class="com_btn show-on-scroll">자세히 보기</a>
+		</div>
+	</article>
+
+	<!-- Footer -->
+	<footer id="footer" class="main_footer"></footer>
+	<!-- Footer End -->
+
+
+	<!-- Script -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// $("#header").load("header.html")
+			$("#footer").load("footer.html")
+
+			$('.counter').counterUp({
+				delay: 10,
+				time: 1500
+			});
+
+			// $('.toggle').click(function(){
+			// 	$('body').toggleClass('dark');
+			// });
+
+
+		});
+
+		var swiper = new Swiper(".main_slide", {
+			loop: true,
+			autoplay: true,
+			speed: 1200,
+			pagination: {
+				el: ".swiper-pagination"
+			},
+		});
+
+		var swiper = new Swiper(".btSwiper", {
+			spaceBetween: 30,
+			loop: true,
+			autoplay: true,
+			speed: 1000,
+			effect: "fade",
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+		});
+
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+	<script src="./js/common.js"></script>
+
+</body>
+</html>

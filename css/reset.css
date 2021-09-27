@@ -1,0 +1,163 @@
+/***** fonts *****/
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+/* 300 400 700 800 */
+html {
+  font-size: 62.5%;
+  overflow-X: hidden;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'NanumSquare', sans-serif;
+  box-sizing: border-box;
+  color: #2c2c2c;
+}
+::selection {
+  background: #E9365E;
+  color: #fff;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: linear-gradient(to top, #d71e26, #dc7526, #de8e27); */
+  background: #E9365E;
+  border-radius: 5px;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 1.6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+input,
+label,
+li,
+p,
+select,
+span {
+  color: #2c2c2c;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+ol:after,
+ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  padding: 2px 6px;
+}
+
+*input::-webkit-input-placeholder {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+*input:-ms-input-placeholder {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+*input::-ms-input-placeholder {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+*input::placeholder {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+*input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-radius: 0;
+  /*
+    background-image: url("../images/select.png");
+    */
+  background-repeat: no-repeat;
+  background-position: right 2px center;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 2px 24px 2px 6px;
+}
+
+select:focus {
+  /*
+    background-image: url("../images/selected.png");
+    */
+}
+
+select::-ms-expand {
+  display: none !important;
+}
+
+iframe,
+img {
+  display: block;
+}
+/*# sourceMappingURL=common.css.map */
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 50%;
+  }
+}
