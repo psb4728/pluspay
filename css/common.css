@@ -713,7 +713,7 @@ footer .top_logo .top_button span {
   position: relative;
   font-size: 1.6rem;
   font-weight: 900;
-  padding-right: 2.2rem;
+  padding: 1rem 2.2rem 0;
   color: var(--gray-color);
   box-sizing: border-box;
   cursor: pointer;
@@ -723,7 +723,7 @@ footer .top_logo .top_button span::before, footer .top_logo .top_button span::af
   content: "";
   display: inline-block;
   position: absolute;
-  top: 45%;
+  top: 60%;
   right: 3px;
   width: 0.9rem;
   height: 3px;
@@ -741,7 +741,7 @@ footer .top_logo .top_button span:hover {
   color: var(--dark-black);
 }
 footer .top_logo .top_button span:hover::before, footer .top_logo .top_button span:hover::after {
-  top: 35%;
+  top: 50%;
   background: var(--dark-black);
 }
 footer .mi_content {
