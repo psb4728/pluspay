@@ -697,9 +697,11 @@ footer .top_logo {
   justify-content: space-between;
   padding-bottom: 1rem;
   border-bottom: 2px solid;
+  -webkit-border-bottom: 2px solid;
   border-image: var(--main-gradation);
-  -webkit-border-image: var(--main-gradation);
+  -webkit-border-image: -webkit-var(--main-gradation);
   border-image-slice: 1;
+  -webkit-border-image-slice: 1;
 }
 footer .top_logo .top_button span {
   position: relative;
