@@ -696,12 +696,20 @@ footer .top_logo {
   align-items: flex-end;
   justify-content: space-between;
   padding-bottom: 1rem;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
   border-bottom: 2px solid transparent;
-  -webkit-border-bottom: 2px solid transparent;
   border-image: var(--main-gradation);
-  -webkit-border-image: -webkit-var(--main-gradation);
   border-image-slice: 1;
   -webkit-border-image-slice: 1;
+}
+footer .top_logo -webkit-border {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 2px solid transparent;
+  border-image: -webkit-var(--main-gradation);
 }
 footer .top_logo .top_button span {
   position: relative;

@@ -711,7 +711,7 @@
 #s3:checked ~ #slide1,
 #s4:checked ~ #slide2,
 #s5:checked ~ #slide3 {
-    transform: translate3d(-30%, 0, -100px);
+    transform: translate3d(-28%, 0, -100px);
   }
 
   #s1:checked ~ #slide5,
@@ -727,7 +727,7 @@
 #s3:checked ~ #slide5,
 #s4:checked ~ #slide1,
 #s5:checked ~ #slide2 {
-    transform: translate3d(30%, 0, -100px);
+    transform: translate3d(28%, 0, -100px);
   }
 
   #s1:checked ~ #slide2,
