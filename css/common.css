@@ -701,8 +701,9 @@ footer .top_logo {
   border-right: 0;
   border-bottom: 2px solid transparent;
   border-image: var(--main-gradation);
+  -webkit-border-image: -webkit-linear-gradient(to right, #F2A726, #E9365E);
   -webkit-border-bottom: 2px solid transparent;
-  -webkit-border-image: -webkit-var(--main-gradation);
+  -webkit-border-image: line;
   border-image-slice: 1;
   -webkit-border-image-slice: 1;
 }
