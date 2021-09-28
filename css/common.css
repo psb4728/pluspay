@@ -696,8 +696,8 @@ footer .top_logo {
   align-items: flex-end;
   justify-content: space-between;
   padding-bottom: 1rem;
-  border-bottom: 2px solid;
-  -webkit-border-bottom: 2px solid;
+  border-bottom: 2px solid transparent;
+  -webkit-border-bottom: 2px solid transparent;
   border-image: var(--main-gradation);
   -webkit-border-image: -webkit-var(--main-gradation);
   border-image-slice: 1;
