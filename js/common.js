@@ -32,7 +32,7 @@ $(document).ready(function(){
   });
 
 
-  // 자주하는 질문 아코디언
+  // faq accordion
   $('.faq_content .row li').on('click',function(){
     $('.faq_content .row .reply').stop().slideUp();
 

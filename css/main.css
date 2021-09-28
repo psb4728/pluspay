@@ -168,6 +168,7 @@
   transform: translateY(0px);
 }
 .info_wrap .com_btn {
+  position: relative;
   opacity: 0;
   transform: translateY(150px);
   transition: opacity 1s ease-in-out, transform 1s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out;
