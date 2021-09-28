@@ -701,15 +701,10 @@ footer .top_logo {
   border-right: 0;
   border-bottom: 2px solid transparent;
   border-image: var(--main-gradation);
+  -webkit-border-bottom: 2px solid transparent;
+  -webkit-border-image: -webkit-var(--main-gradation);
   border-image-slice: 1;
   -webkit-border-image-slice: 1;
-}
-footer .top_logo -webkit-border {
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 2px solid transparent;
-  border-image: -webkit-var(--main-gradation);
 }
 footer .top_logo .top_button span {
   position: relative;
