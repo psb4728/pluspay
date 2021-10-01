@@ -95,6 +95,12 @@
 					</div>
 				</li> -->
 				<li>
+					<a href="service.html">서비스 신청</a>
+					<div class="depth">
+						<a href="service.html">서비스 신청</a>
+					</div>
+				</li>
+				<li>
 					<a href="faq.html">고객지원</a>
 					<div class="depth">
 						<a href="faq.html">자주하는 질문</a>
@@ -140,6 +146,26 @@
 		</article>
 	</header>
 
+	<!-- fab -->
+	<div class="fab quick_menu">
+		<div class="trigger">
+			<img src="./images/quick_icon1.png" alt="플러스페이">
+		</div>
+		<ul class="actions">
+			<li>
+				<a href="mailto:sales@31pluspay.com">
+					<img src="./images/quick_icon2.png" alt="메일">
+				</a>
+			</li>
+			<li>
+				<a href="tel:1661-8431">
+					<img src="./images/quick_icon3.png" alt="핸드폰">
+				</a>
+			</li>
+		</ul>
+	</div>
+	
+	
 	<!-- Main -->
 	<main class="main_container">
 		<article class="swiper main_slide">
@@ -353,9 +379,9 @@
 				time: 1500
 			});
 
-			// $('.toggle').click(function(){
-			// 	$('body').toggleClass('dark');
-			// });
+			$('.fab').on("click", function(){
+        $(this).toggleClass('open');
+			});
 
 
 		});
@@ -365,7 +391,8 @@
 			autoplay: true,
 			speed: 1200,
 			pagination: {
-				el: ".swiper-pagination"
+				el: ".swiper-pagination",
+				clickable: true
 			},
 		});
 
@@ -377,7 +404,7 @@
 			effect: "fade",
 			pagination: {
 				el: ".swiper-pagination",
-				clickable: true,
+				clickable: true
 			},
 		});
 

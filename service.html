@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 	<head>
-	<title>플러스페이 소개</title>
+	<title>플러스페이 서비스 신청</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -31,19 +31,22 @@
   <link rel="icon" type="image/png" href="./images/favicon.ico">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
 	<link href="css/common.css" rel="stylesheet" type="text/css" />
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
 
   <!-- jQuery-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	
+
+	<!-- Swiper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+
+
 </head>
 <body>
 	<!-- Skip -->
   <div id="skipNav">
-    <a href="#main_bt">본문 바로가기</a>
+    <a href="#skip_content">본문 바로가기</a>
     <a href="./info.html">플러스페이소개 바로가기</a>
     <a href="./payWrite.html">결제서비스 바로가기</a>
     <a href="./addtion.html">부가서비스 바로가기</a>
@@ -52,7 +55,6 @@
 
 	<!-- Layer -->
 	<div id="layer"></div>
-	<!-- Layer End -->
 
 	<!-- Header -->
 	<header id="header">
@@ -81,7 +83,7 @@
 						<a href="payWrite.html#tabs-5">가상계좌</a>
 					</div>
 				</li>
-				<li>
+        <li>
 					<a href="service.html">서비스 신청</a>
 					<div class="depth">
 						<a href="service.html">서비스 신청</a>
@@ -105,99 +107,88 @@
 		</nav>
 
 		<article class="ham_nav">
-			menu
+			<div class="mo_nav_wrap">
+				<ul class="menu_list">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="info.html">플러스페이 소개</a></li>
+					<li class="sub"><a href="payWrite.html">결제서비스</a>
+						<div class="sub_menu">
+							<ul>
+								<li><a href="payWrite.html#tabs-1">수기결제</a></li>
+								<li><a href="payWrite.html#tabs-2">SMS결제</a></li>
+								<li><a href="payWrite.html#tabs-4">자동결제</a></li>
+								<li><a href="payWrite.html#tabs-5">가상계좌</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="sub"><a href="faq.html">고객지원</a>
+						<div class="sub_menu">
+							<ul>
+								<li><a href="faq.html">자주하는 질문</a></li>
+								<li><a href="notice.html">공지사항</a></li>
+								<li><a href="question.html">문의하기</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
 		</article>
 	</header>
-	<!-- Header End -->
 
-	<!-- Main -->
-	<main class="main_container">
-    <div class="info_main">
-      <h2>당신의 생활에 PLUS</h2>
-      <img src="./images/info_main_img.png" alt="당신의 생활에 plus">
-    </div>
-	</main>
-
-	<!-- Info -->
-	<article class="info_wrap info_container">
-		<div class="inner">
-			<h3 class="show-on-scroll">플러스페이란?</h3>
-			<p class="show-on-scroll">
-				저희 플러스 페이는 On/Offline Payment Solution, 온라인 전자결제<br>
-        (PG, PAYMENTT GATEWAY) 등 전자상거래 소프트웨어를 전문적으로<br>
-        개발하는 개발하는 기업으로 다년간 노하우를 가지고 항상 업주님들의<br> 
-        서비스 품질 향상 및 업주님들의 수익 향상을 위해 노력해왔습니다.<br> 
-        업주님들의 수익 향상 방법을 위해 노력해왔습니다.
-			</p>
-		</div>
-	</article>
-
-  <div class="notebook">
-    <img class="show-on-scroll" src="./images/info_notebook1.png" alt="노트북">
-  </div>
-
-  <article class="info_wrap">
-		<div class="inner">
-			<h3 class="show-on-scroll">차별화된 결제시스템, PLUS PAY</h3>
-			<p class="show-on-scroll">
-				신용카드, 실시간 계좌이체, 가상계좌, 휴대폰 등<br>
-        다양한 수단으로 결제가 가능하며 PC와 모바일 모두 지원합니다.<br><br>
-
-        결제 API와 결제 샘플을 제공하여 JAVA, PHP, ASP, Rudy, Python, Node.js 등<br>
-        어떠한 개발 환경에서도 1시간이면 웹사이트에 결제 서비스를 구축할 수 있습니다.<br><br>
-
-        반응형으로 제작되어 PC, TABLET, MOBILE 등 어떠한 환경에서도<br> 
-        사용자가 쉽고 간편하게 사용할 수 있습니다.
-			</p>
-			<a href="question.html" class="com_btn show-on-scroll">서비스 신청하기</a>
-		</div>
-	</article> 
-
-  <!-- Setp -->
-  <article class="container">
-    <div class="inner step_wrap">
-      <h3 class="show-on-scroll">이용절차</h2>
-      <div class="step_content">
-        <section class="step_item show-on-scroll">
-          <h4>step<strong class="num1">1</strong></h4>
-          <img src="./images/step_1.png" alt="서비스가입">
-          <p>서비스 신청하기 버튼을 눌러 접수 후<br>상담과 심사 진행</p>
-        </section>
-        <section class="step_item show-on-scroll">
-          <h4>step<strong class="num2">2</strong></h4>
-          <img src="./images/step_2.png" alt="시스템제공">
-          <p>계약이 성사되면 서비스 API, URL,<br>매뉴얼 제공</p>
-        </section>
-        <section class="step_item show-on-scroll">
-          <h4>step<strong class="num3">3</strong></h4>
-          <img src="./images/step_3.png" alt="시스템적용">
-          <p>전달받은 매뉴얼을 참고하여 적용</p>
-        </section>
-        <section class="step_item show-on-scroll">
-          <h4>step<strong class="num4">4</strong></h4>
-          <img src="./images/step_4.png" alt="테스트/이용">
-          <p>테스트를 통해 정상작동 확인 하면<br>플러스페이 전자결제 서비스 이용<br>가능!</p>
-        </section>
+  <!-- main -->
+  <article class="container service">
+    <section class="inner">
+      <h2>서비스 신청</h2>
+      <div class="top_info">
+        <div class="left_wrap">
+          <p>고객센터</p>
+          <h3>1661-8431</h3>
+          <p>이메일</p>
+          <h3>sales@31pluspay.com</h3>
+        </div>
+        <div class="order_wrap">
+          <ul>
+            <li class="tit yellow"><strong>1</strong>서비스 신청</li>
+            <li>아래의 정보를 입력 후 서비스<br>신청하기 버튼을 클릭합니다.</li>
+          </ul>
+          <ul>
+            <li class="tit orange"><strong>2</strong>상담 및 내방</li>
+            <li>아래의 정보를 입력 후 서비스<br>신청하기 버튼을 클릭합니다.</li>
+          </ul>
+          <ul>
+            <li class="tit red"><strong>3</strong>서비스 이용</li>
+            <li>아래의 정보를 입력 후 서비스<br>신청하기 버튼을 클릭합니다.</li>
+          </ul>
+        </div>
       </div>
-    </div>
+
+      <article class="form_wrap">
+        <form action="" method="POST" class="service_form">
+          <input type="text" name="name" id="name" placeholder="이름(필수)" required>
+          <input type="email" name="email" id="email" placeholder="이메일(필수)" required>
+          <input type="tel" name="tel" id="tel" placeholder="연락처(필수)" required>
+          <input type="text" name="title" id="title" placeholder="제목">
+          <textarea name="content" id="content" cols="30" rows="20" placeholder="내용"></textarea>
+          <button type="submit" class="form_btn">서비스 신청하기</button>
+        </form>
+      </article>
+    </section>
   </article>
 
-	
 
-	<!-- Footer -->
-	<footer id="footer"></footer>
+  <!-- Footer -->
+	<footer id="footer" class="main_footer"></footer>
 	<!-- Footer End -->
 
 
-	<!-- Script -->
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$("#footer").load("footer.html")
+  <script>
+    $(document).ready(function(){
+			$("#footer").load("footer.html");
 		});
 
-
-	</script>
+  </script>
 	<script src="./js/common.js"></script>
+  <script src="./js/main.js"></script>
 
 </body>
 </html>

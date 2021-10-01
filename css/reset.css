@@ -67,6 +67,7 @@ h6,
 i,
 input,
 label,
+textarea,
 li,
 p,
 select,
@@ -98,24 +99,19 @@ input {
   padding: 2px 6px;
 }
 
-*input::-webkit-input-placeholder {
-  font-family: 'Noto Sans KR', sans-serif;
+input::placeholder,
+textarea::placeholder {
+  color: #919191;
 }
-
-*input:-ms-input-placeholder {
-  font-family: 'Noto Sans KR', sans-serif;
-}
-
-*input::-ms-input-placeholder {
-  font-family: 'Noto Sans KR', sans-serif;
-}
-
-*input::placeholder {
-  font-family: 'Noto Sans KR', sans-serif;
+textarea::placeholder {
+  font-weight: 600;
 }
 
 *input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+textarea {
+  resize: none;
 }
 
 select {

@@ -1,26 +1,19 @@
-$(function() {
+const btn = document.querySelector('.form_btn');
+const name = document.querySelector('#name');
+const tel = document.querySelector('#tel');
+const email = document.querySelector('#email');
 
-  // if(location.hash == '#tabs-1') {
-  //   $('.tab_list').find('li').eq(0).addClass('active').siblings().removeClass();    
-  //   $('.wrap').find('#tabs-1').addClass('active').siblings().removeClass('active');
-  //   return;
-  // } else if(location.hash == '#tabs-2') {
-  //   $('.tab_list').find('li').eq(1).addClass('active').siblings().removeClass();  
-  //   $('.wrap').find('#tabs-2').addClass('active').siblings().removeClass('active');
-  //   return;
-  // } else if(location.hash == '#tabs-3') {
-  //   $('.tab_list').find('li').eq(2).addClass('active').siblings().removeClass();  
-  //   $('.wrap').find('#tabs-3').addClass('active').siblings().removeClass('active');
-  //   return;
-  // } else if(location.hash == '#tabs-4') {
-  //   $('.tab_list').find('li').eq(3).addClass('active').siblings().removeClass();  
-  //   $('.wrap').find('#tabs-4').addClass('active').siblings().removeClass('active');
-  //   return;
-  // } else if(location.hash == '#tabs-5') {
-  //   $('.tab_list').find('li').eq(4).addClass('active').siblings().removeClass();  
-  //   $('.wrap').find('#tabs-5').addClass('active').siblings().removeClass('active');
-  //   return;
-  // }
-
-  
+btn.addEventListener('click', function(e) {
+  if(name.value === '') {
+    alert('이름을 입력해주세요');
+    return;
+  }
+  if(email.value === '') {
+    alert('이메일을 입력해주세요');
+    return;
+  }
+  if(tel.value === '') {
+    alert('전화번호를 입력해주세요');
+    return;
+  }
 });

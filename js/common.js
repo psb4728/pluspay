@@ -29,6 +29,7 @@ $(document).ready(function(){
   $('.menu_btn').click(function(){
     $(this).toggleClass('open');
     $('.ham_nav').toggleClass('open');
+    $('body').toggleClass('overflow');
   });
 
 
