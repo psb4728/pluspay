@@ -67,9 +67,9 @@
   font-weight: 500;
   margin-bottom: 1.2rem;
   color: var(--main-color);
-  transform: translateX(-500px);
+  transform: translateX(-900px);
   opacity: 0;
-  transition: opacity 1.5s ease, transform 1.5s ease;
+  transition: opacity 1.6s ease, transform 1.6s ease;
 }
 .visual_container .left_content h2 {
   font-size: 6.4rem;

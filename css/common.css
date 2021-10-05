@@ -828,7 +828,7 @@ footer .top_logo .top_button span:hover {
   color: var(--dark-black);
 }
 footer .top_logo .top_button span:hover::before, footer .top_logo .top_button span:hover::after {
-  top: 50%;
+  animation: top 1s infinite forwards linear;
   background: var(--dark-black);
 }
 footer .mi_content {
@@ -902,6 +902,17 @@ footer .bt_footer ul li:nth-child(2) {
   100% {
     opacity: 1;
     transform: translateY(0%);
+  }
+}
+@keyframes top {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 70%;
+  }
+  100% {
+    top: 50%;
   }
 }
 @media screen and (max-width: 1327px) {
