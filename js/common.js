@@ -25,6 +25,7 @@ $(document).ready(function(){
     }
   });
 
+  
   // hamburger menu button
   $('.menu_btn').click(function(){
     $(this).toggleClass('open');
@@ -45,6 +46,11 @@ $(document).ready(function(){
       $(this).parent('.row').removeClass('active');
       $('.faq_content .row .reply').stop().slideUp();
     }
+  });
+
+  // 자동 하이픈
+  $(".tel").on("keyup", function() { 
+    $(this).val( $(this).val().replace(/[^0-9]/g, "").replace(/(^02|^0505|^1[0-9]{3}|^0[0-9]{2})([0-9]+)?([0-9]{4})$/,"$1-$2-$3").replace("--", "-") ); 
   });
 
 });

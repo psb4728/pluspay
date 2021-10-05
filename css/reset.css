@@ -112,6 +112,7 @@ textarea::placeholder {
 }
 textarea {
   resize: none;
+  font-weight: 700;
 }
 
 select {
